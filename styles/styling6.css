@@ -7,6 +7,7 @@
 
 body{
     background-color: white;
+    text-align: center;
 }
 
 a{
@@ -14,12 +15,26 @@ a{
     width: 300px;
     padding: 10px;
     text-align: center;
-    margin: 4px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    line-height: 50px;
 }
 
 h1{
-    color: #003366;
+  color: #003366;
 }
+
+h4{
+  margin: 0;
+}
+
+.card{
+  display: inline-block;
+  width: 600px;
+  background-color: #e8e8e8;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
