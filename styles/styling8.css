@@ -6,7 +6,10 @@
 }
 
 body{
-    background-color: #0D0221;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a{
@@ -20,7 +23,11 @@ a{
     font-weight: bold;
 }
 
-h1{
-    color: #05fcb6;
+p{
+  color: black;
+}
+
+h3{
+    color: #003366;
 }
 
