@@ -40,6 +40,7 @@ h1 {
     border-radius: 30px;
     margin: 0px;
     padding: 5px;
+    transition: 400ms ease;
 }
 
 table {
@@ -65,8 +66,59 @@ th {
   width: 100%;
   text-align: center;
   margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
 
 .colorwhite{
   color: white;
+}
+
+.margin-top{
+  margin-top: 150px;
+}
+
+.fancytable{
+  display: flex;
+  gap: 200px;
+}
+
+.blockdisplay *{
+  display: block;
+}
+
+.bgblue{
+  background-color: #003366;
+  color: white;
+}
+
+.cardwidthhigh{
+  width: 700px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}
+
+
+.flexcolumn{
+  flex-direction: column;
+}
+
+.corevalues{
+  background-color: #e9eff5;
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.corevalues h1{
+  margin: 0;
 }
