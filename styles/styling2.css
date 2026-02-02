@@ -24,3 +24,9 @@ body{
 .main{
     margin-left: 10px;
 }
+
+.warning{
+  color: red;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

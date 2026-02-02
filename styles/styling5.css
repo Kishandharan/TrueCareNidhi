@@ -24,3 +24,8 @@ a{
     color: white;
 }
 
+.warning{
+  color: red;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

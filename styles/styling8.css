@@ -1,5 +1,5 @@
 *{
-    font-family: Roboto Mono;
+    font-family: Arial;
     user-select: none;
     color: white;
     margin-left: 5px;
@@ -31,3 +31,8 @@ h3{
     color: #003366;
 }
 
+.warning{
+  color: red;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
