@@ -7,14 +7,39 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>TrueCare Nidhi Rules</title>
     <style>
-      .justify-text{
-        text-align: justify;
-        line-height: 1.8;
+            .card {
+          border-radius: 12px;
+          border: 1px solid #e3e6ea;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.05);
       }
+
+            .justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
+}
+            .navbar {
+          background: linear-gradient(to right, #0d3b66, #1e5fa3);
+      }
+      .list-group-item {
+          border: none;
+          border-bottom: 1px solid #eaeaea;
+          padding: 12px 10px;
+      }
+      .btn-outline-primary {
+          display: block;
+          width: 100%;
+          margin: 8px auto;
+          max-width:220px;
+      }
+      body {
+          background: #f4f8fc;
+      }
+      
     </style>
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-dark">
+    <nav class="navbar navbar-dark">
         <div class="container-fluid">
             <div class="navbar-brand">
               <a href="TC_index.html"><img src="TrueCare_Logo1.png" width="100" alt=""></a>
@@ -27,6 +52,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="TC_index.html">Home</a>
                 </li>
+                 <li class="nav-item">
+                        <a class="nav-link" href="TC_vision_mision.html">Vision & Mission</a>
+                    </li>
                   <li class="nav-item">
                   <a class="nav-link" href="TC_md_message.html">MD's Message</a>
                 </li>
@@ -55,11 +83,17 @@
         </div>          
     </nav>
 
-    
+      <div class="text-end px-3 mt-2">
+            <p style="color:red; font-weight:bold; font-size:14px;">
+                FOR PRIVATE CIRCULATION ONLY – Exclusively for information of members
+            </p>
+        </div>
+
     <div class="container-fluid mt-3 text-center">
-      <h1>Nidhi Rules</h1>
-        <p class=" mb-5 px-4 py-1 mx-auto alert alert-danger text-center" style="max-width:400px;">Note! This is only for Members</p>
-      <p class="text-center fst-italic me-5 ms-5 justify-text">
+      <h1 class="fw-bold">Companies Act and Nidhi Rules</h1>
+      <div class="container mt-4"  >
+      <p class="justify-text">
+      
         Nidhi companies are governed by the Companies Act, 2013 more specifically Section  406 of the said
         Act besides of course, the Nidhi Rules, 2014 and the amendments thereafter of the  rules in 2019,
         2020, 2022, 2023 and 2024. An extract from Google is reproduced here below stating  the salient
@@ -68,20 +102,19 @@
         operations. However they follow the directions of the RBI on financial matters, particularly the
         deposit  taking and acceptance area. A Nidhi company shall not carry out the business of chit 
         funds, higher  purchases, leasing, or insurance business.
-      </p>
-      <p class="text-center fst-italic me-5 ms-5 justify-text">
         These rules mandate that they function as public companies, deal only with members for  
         lending/borrowing and maintain specific member/capital thresholds (like 200 members, ₹20 Lakhs
         NOF), and are required to file forms like NDH-1, NDH-4, etc. with penalties for non-compliance.
         The various Acts mentioned herein above are available as downloads for a more detailed  
         understanding. Please find here below an overview about the Nidhi category of companies.  
       </p>
-      
+      </div>
 
-      <div class="container-fluid my-5">
-        <h5>Key Legislation & Rules</h5>
+      <div class="container text-center my-4">
+        
+        <h4 class="fw-bold mb-3">Key Legislation & Rules</h4>
       <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Companies Act, 2013 (Section 406)</h4>
+        <h4 class="card-header fw-bold">Companies Act, 2013 (Section 406)</h4>
         <div class="card-body">
           Establishes Nidhi Companies as a distinct class
           of public companies focused on mutual benefit for members.
@@ -92,7 +125,7 @@
       </div>
       
       <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Nidhi Rules, 2014 & Amendments (2019, 2020, 2022, 2023 and 2024)</h4>
+        <h4 class="card-header fw-bold">Nidhi Rules, 2014 & Amendments (2019, 2020, 2022, 2023 and 2024)</h4>
         <div class="card-body">
           Provide detailed operational guidelines, membership criteria,
           capital requirements, and restrictions.
@@ -121,75 +154,59 @@
         </div>
       </div>
 
-      <h5>Key Requirements & Restrictions</h5>
 
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Incorporation</h4>
-        <div class="card-body">
-          Must be a Public Limited Company with
+      <div class="container my-5">
+        
+        <h4 class="fw-bold mb-4 text-center">Key Requirements & Restrictions</h4>
+
+        <div class="mt-4 text-start" style="max-width: 900px; margin:auto;">
+        
+            <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+            <strong>Incorporation: </strong>Must be a Public Limited Company with
           "Nidhi Limited" in its name.
-        </div>
-      </div>
 
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Members</h4>
-        <div class="card-body">
-          Minimum 200 members within one year.
-        </div>
-      </div>
+          </div>
+          <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+            <strong>Members: </strong>Minimum 200 members within one year.
 
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Capital</h4>
-        <div class="card-body">
-          Minimum ₹10 Lakhs Paid-Up Capital and
+          </div>
+          <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+             <strong>Capital: </strong>Minimum ₹10 Lakhs Paid-Up Capital and
           Net Owned Funds (NOF) of ₹20 Lakhs or more.
-        </div>
-      </div>
 
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Operations</h4>
-        <div class="card-body">
-          Accept deposits and lend money only to members.
-        </div>
-      </div>
+          </div>
+           <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+            <strong>Operations:  </strong>Accept deposits and lend money only to members.
 
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Prohibitions</h4>
-        <div class="card-body">
-          Cannot carry on business of chit funds, hire purchase, leasing, insurance,
+           </div>
+           <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+            <strong>Prohibitions: </strong>Cannot carry on business of chit funds, hire purchase, leasing, insurance,
           or issue preference shares/debentures.
+           </div>
+
+           <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+            <strong>RBI: </strong>Exempt from Reserve Bank of India (RBI) approval.
+           </div>
+
         </div>
-      </div>
+         <h4  class="fw-bold mb-4 text-center">Compliance & Penalties</h4>
+                 <div class="mt-4 text-start" style="max-width: 900px; margin:auto;">
 
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">RBI</h4>
-        <div class="card-body">
-          Exempt from Reserve Bank of India (RBI) approval.
-        </div>
-      </div>
-
-      <h5>Compliance & Penalties</h5>
-
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Mandatory Filings</h4>
-        <div class="card-body">
-          Must file Form NDH-1 (Return of Statutory Compliances)
+         <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+          <strong>Mandatory Filings: </strong>Must file Form NDH-1 (Return of Statutory Compliances)
           within 90 days of the financial year-end.
-        </div>
-      </div>
-
-      <div class="card p-3 rounded m-4 border-5">
-        <h4 class="card-header">Penalties</h4>
-        <div class="card-body">
-          Non-compliance with Nidhi Rules can lead to fines
-          (e.g., ₹5,000 initially, plus ₹500/day for  continued default)
-          for the company and officers.
-        </div>
-      </div>
-      </div>
-      </div>
-      
-
+         </div>
+         
+          <div class="p-3 mb-3 bg-white border rounded shadow-sm">
+            <strong>Penalties: </strong>Non-compliance with Nidhi Rules can lead to fines
+            (e.g., ₹5,000 initially, plus ₹500/day for  continued default)
+            for the company and officers.
+            </div>
+            </div>
+            </div>
+            </div>
+    </div>
+    
       <!--
 
       <p class="fs-3">Please find here below the various Acts, Rules, and amendments thereof, governing Nidhi  
