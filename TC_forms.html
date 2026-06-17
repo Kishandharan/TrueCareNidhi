@@ -19,10 +19,41 @@
         .form-link:hover{
             text-decoration: underline;
         }
+           .navbar {
+    background: linear-gradient(to right, #0d3b66, #1e5fa3);
+}
+.ndh4-box {
+    background: #ffffff;
+    border-left: 4px solid #1e5fa3;
+    border-radius: 10px;
+    padding: 12px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.ndh4-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0d3b66;
+    text-align: center;
+}
+
+.ndh4-box img {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .ndh4-box {
+        width: 160px;
+        margin: auto;
+    }
+}
     </style>
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <div class="navbar-brand">
               <a href="TC_index.html"><img src="TrueCare_Logo1.png" width="100" alt=""></a>
@@ -31,10 +62,13 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="cmenu">
-              <ul class="navbar-nav text-end">
+              <ul class="navbar-nav ms-auto text-center text-lg-end">
                 <li class="nav-item">
                   <a class="nav-link" href="TC_index.html">Home</a>
                 </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="TC_vision_mision.html">Vision & Mission</a>
+                    </li>
                  <li class="nav-item">
                   <a class="nav-link" href="TC_md_message.html">MD's Message</a>
                 </li>
@@ -62,12 +96,35 @@
             </div>
         </div>          
     </nav>
-    
+
+      <div class="text-end px-3 mt-2">
+            <p style="color:red; font-weight:bold; font-size:14px;">
+                FOR PRIVATE CIRCULATION ONLY – Exclusively for information of members
+            </p>
+        </div>
+
+        <div class="container py-4" style="background:#f8f9fa;">
+    <div class="row align-items-center">
+
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6 text-center">
+            <h2 class="fw-bold mb-2" style="color:#0d3b66;">Forms</h2>
+            <hr style="width:60px; margin:10px auto; border:2px solid #1e5fa3;">
+        </div>
+
+        <div class="col-md-3 text-center text-md-end mt-3 mt-md-0">
+            <div class="ndh4-box d-inline-block">
+                <div class="ndh4-title">NDH4 Form</div>
+                <img src="ndh4.png" alt="NDH4 Form">
+            </div>
+        </div>
+        </div>
+        </div>
+        
+
     <section class="forms-section">
     <div class="container-fluid  my-3 px-md-5 content-wrapper px-3  ">
-
-            <h1 class="text-center mb-4">Forms</h1>  
-            <p class=" mb-4 px-4 py-2 mx-auto alert alert-danger text-center" style="max-width:400px;">Note! This is only for Members</p>
 
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6 mx-auto mb-3">
@@ -94,13 +151,10 @@
         </div>
       </div>
     </div>
-    
     </div>
     </section>
 
-    
-<!--
-           <footer class="bg-dark py-3  mt-5 text-center text-light">
+         <footer class="bg-dark py-5  mt-5 text-center text-light">
             <h3 class="fw-bold">TrueCare Nidhi Ltd</h3>
             <p class="mb-1">
                 <strong>Helpline:</strong> 
@@ -111,9 +165,6 @@
             <br>
             <p class=" small mb-0 text-secondary">© 2026 TrueCare Nidhi Ltd. All Rights Reserved.</p>
         </footer>
-        -->
-    
-        
 
 </body>
 </html>
